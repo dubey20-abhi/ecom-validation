@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .man-matters {
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 35vh;
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: -80px;
+
+}
+
+.container .man-matters h1{
+    padding-left: 100px;
+    margin-top: 0px;
+    padding-top: 1rem;
+    padding-left: 0px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.container .man-matters h1 span {
+    display: inline-block;
+    text-indent: 20px;
+}
+
+.container .man-matters h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .flex {
+    background-color: blue;
+    color: tomato;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 20px;
+    z-index: 1;
+    min-height: 25vh;
+}
+
+.container .change {
+    background-color: white;
+    color: black;
+    min-height: 65vh;
+    width: 100%;
+    margin-top: -100px;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .change  p{
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.container .change  .number{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.container .change .number form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+}
+
+.container .change .number form input{
+    width: 90%;
+    margin: 10px auto;
+    height: 3vh;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background: transparent;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container .change .number form button:disabled{
+    width: 90%;
+    margin: 20px auto;
+    height: 6vh;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: gray;
+    font-size: 18px;
+}
+
+.container .change .number form button:enabled{
+    width: 90%;
+    margin: 20px auto;
+    height: 6vh;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgba(17, 171, 182, 0.849);
+    font-size: 18px;
+}
+
